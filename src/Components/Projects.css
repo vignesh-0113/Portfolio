@@ -1,0 +1,146 @@
+.project-title{
+    margin: 20px 50px;
+    margin-top: 50px;
+}
+
+.project-title h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    background: linear-gradient( 270deg, #ff6030 40%, yellow , red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.project-internship{
+    display: flex;
+    margin-top: 80px;
+}
+.projects{
+    width: 45%;
+    margin-left: 50px;
+}
+.project1{
+    padding-bottom: 30px;
+}
+.project1 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.project1 b{
+    color: yellow;
+}
+.project1 p{
+    font-size: 17px;
+    padding: 5px;
+    display: flex;
+}
+.project2 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.project2 b{
+    color: yellow;
+}
+.project2 p{
+    font-size: 17px;
+    padding: 5px;
+    display: flex;
+}
+.internship{
+    width: 45%;
+    margin-left: 20px;
+    padding-left: 30px;
+    border-left: 2px solid white;
+}
+.intership1{
+    margin: 30px;
+}
+.intership1 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.intership1 b{
+    color: yellow;
+}
+.intership1 p{
+    font-size: 17px;
+    padding: 5px;
+    display: flex;
+}
+.intership2{
+    margin: 30px;
+}
+.intership2 h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.intership2 b{
+    color: yellow;
+}
+.intership2 p{
+    font-size: 17px;
+    padding: 5px;
+    display: flex;
+}
+
+
+@media (max-width:700px){
+    .project-title{
+        margin: 0;
+    }
+    .project-title h1{
+        font-size: 30px;
+        margin: 0;
+        margin-top: 40px;
+           
+    }
+    .project-internship{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .projects{
+        margin: 0;
+    }
+    .project1{
+        padding: 0;
+    }
+    .project1 h3{
+        font-size: 18px;
+        width: 150%;
+        margin: 15px;
+        padding: 0;
+    }
+    .project1 p{
+        margin: 5px 10px;
+        font-size: 18px;
+        display: flex;
+        width: 200%;
+        
+    }
+    .project2 h3{
+        font-size: 18px;
+        width: 150%;
+        margin: 15px;
+        padding: 0;
+    }
+    .project2 p{
+        margin: 5px 10px;
+        font-size: 18px;
+        display: flex;
+        width: 200%;
+    }
+    .internship{
+        border: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .intership1 h3{
+        font-size: 20px;
+    }
+    .intership2 h3{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,95 @@
+.contact{
+    margin-top: 100px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    background: linear-gradient( 270deg, #ff6030 40%, yellow , red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contact-left p{
+    font-size: 20px;
+}
+.list{
+    margin-top: 20px;
+}
+.list ul p{
+    word-spacing: 20px;
+    padding-bottom: 10px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.form input{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px; 
+    width: 500px;  
+}
+.text-area{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 30px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff6030;
+}
+
+
+@media (max-width:700px){
+    .contact h1{
+        font-size: 30px;
+        padding: 0;
+        margin-top: -80px;
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .form{
+        width: 80%;
+        margin-top: 35px;
+    }
+    .form input{
+        width: 50%;
+    }
+    .text-area textarea{
+        width: 50%;
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+}
