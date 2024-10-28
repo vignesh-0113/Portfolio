@@ -7,7 +7,10 @@ import { FaGithub } from "react-icons/fa6";
 
 
 export function Contact(){
-
+    
+    function onSubmit () {
+        alert("Successfully Submitted")
+    }
     return(
         <>
             <div id='contact' className='contact'>
@@ -23,7 +26,7 @@ export function Contact(){
                         </ul>
                     </div>
                     <div className='form'>
-                    <form action='https://formsubmit.co/el/vignesha0101@gmail.com'>
+                    <form>
                         <label>Name:</label>
                         <input type='text' name='Your name' /><br/>
 
@@ -36,7 +39,7 @@ export function Contact(){
                         </div>
                     
                     <div className='button'>
-                        <button type='submit'>Submit</button>
+                        <button type='submit' onClick={onSubmit}>Submit</button>
                     </div>
                     </form>
                     </div>
