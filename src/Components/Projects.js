@@ -26,6 +26,7 @@ export function Projects(){
                             Through an e-commerce website, a business can process orders, accept
                             payments, manage shipping and logistics, and provide customer
                             service. </p>
+                    <p><b>Project Link:</b><a href='https://vignesh-0113.github.io/React-E-Commerce-Website/'> Get here---</a></p>
                 </div>
             </div>
 
@@ -36,6 +37,7 @@ export function Projects(){
                     <p><b>Role:</b> PHP and MySQL Training</p>
                     <p><b>Company Name:</b> Mugil Cloud</p>
                     <p><b>Duration:</b> 1 month</p>
+                    <p><b>Certificate:</b><a href='https://drive.google.com/file/d/18nM4Zxl8Retwi4s5cK4DvANfw07RWKYl/view?usp=drivesdk'>Get here---</a></p>
                 </div>
 
                 <div className='intership2'>
@@ -43,6 +45,7 @@ export function Projects(){
                     <p><b>Role:</b> Web Developer Training</p>
                     <p><b>Company Name:</b> Aframe technologies</p>
                     <p><b>Duration:</b> 1 month</p>
+                    <p><b>Certificate:</b><a href='https://drive.google.com/file/d/1QaRA7HJJVaAhz0uNPQ5Kis6vgNuRhEr1/view?usp=drivesdk'>Get here---</a></p>
                 </div>
             </div>
         </div>

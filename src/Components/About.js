@@ -25,11 +25,11 @@ export function About(){
                         Python Basic concepts like operator, datatype,
                         control flow and OOPS concepts.</p>
 
-                    <div className='about-skills'><p>HTML & CSS</p> <hr style={{width:"80%"}}/></div>
-                    <div className='about-skills'><p>JavaScript</p> <hr style={{width:"50%"}}/></div>
-                    <div className='about-skills'><p>React JS</p> <hr style={{width:"70%"}}/></div>
-                    <div className='about-skills'><p>Python</p> <hr style={{width:"60%"}}/></div>
-                    <div className='about-skills'><p>MySQL</p> <hr style={{width:"70%"}}/></div>
+                    <div className='about-skills'><p>HTML & CSS</p> <hr style={{width:"80%"}}/><h4>80%</h4></div>
+                    <div className='about-skills'><p>JavaScript</p> <hr style={{width:"50%"}}/><h4>50%</h4></div>
+                    <div className='about-skills'><p>React JS</p> <hr style={{width:"70%"}}/><h4>70%</h4></div>
+                    <div className='about-skills'><p>Python</p> <hr style={{width:"60%"}}/><h4>60%</h4></div>
+                    <div className='about-skills'><p>MySQL</p> <hr style={{width:"70%"}}/><h4>70%</h4></div>
                 </div>
                 </div>
             </div>

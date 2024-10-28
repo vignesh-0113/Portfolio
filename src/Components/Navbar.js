@@ -8,11 +8,11 @@ export function Navbar(){
     const menuRef = useState();
 
     const openMenu = () =>{
-        menuRef.current.style.right="0";
+        menuRef.current.style.display="block";
     }
 
     const closeMenu = () =>{
-        menuRef.current.style.right="-350px";
+        menuRef.current.style.display="none";
     }
 
     return(
