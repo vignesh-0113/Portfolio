@@ -88,6 +88,7 @@ button:hover{
     }
     .form input{
         width: 50%;
+        color: white;
     }
     .text-area textarea{
         width: 50%;
