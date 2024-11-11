@@ -38,22 +38,23 @@
 }
 .form input{
     display: flex;
-    gap: 10px;
     align-items: center;
     padding: 5px; 
     width: 500px;  
+    margin-bottom: 10px;
 }
-.text-area{
+.form textarea{
     width: 500px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
 }
-.button{
+.submit{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-button{
+.submit input{
     margin: 30px;
     padding: 5px;
     font-size: 20px;
@@ -62,7 +63,7 @@ button{
     width: 150px;
     cursor: pointer;
 }
-button:hover{
+.submit input:hover{
     background-color: #ff6030;
     color: white;
 }
@@ -92,6 +93,7 @@ button:hover{
     }
     .text-area textarea{
         width: 50%;
+        color: white;
     }
     .button{
         display: flex;

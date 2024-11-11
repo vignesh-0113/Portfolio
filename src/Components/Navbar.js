@@ -21,7 +21,9 @@ export function Navbar(){
                 <h1>Vignesh</h1>
                 <img onClick={openMenu} src="https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png" className='menu-open' alt='..'/>
                 <ul ref={menuRef} className='nav-menu'>
+                    <div className='close'>
                     <img onClick={closeMenu} src="https://img.icons8.com/sf-black-filled/512w/EBEBEB/x.png" className='menu-close' alt='..'/>
+                    </div>
                     <AnchorLink className='link' href='#home'><p onClick={() => setMenu("home")}>Home</p>{menu==="home"? <hr/> :<></> }</AnchorLink> 
                     <AnchorLink className='link' offset={50} href='#about'><p onClick={() => setMenu("about")}>About me</p>{menu==="about"? <hr/> :<></> }</AnchorLink>
                     <AnchorLink className='link' offset={50} href='#projects'><p onClick={() => setMenu("projects")}>Projects</p>{menu==="projects"? <hr/> :<></> }</AnchorLink>

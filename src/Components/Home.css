@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
+    
 }
 .home img{
     display: flex;
@@ -14,7 +14,7 @@
     text-align: center;
 }
 .home-para h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .home-para span{
     background: linear-gradient( 270deg, #ff6030 40%, yellow , red );
@@ -24,7 +24,7 @@
 }
 .home-para p{
     margin: 30px;
-    font-size: 30px;   
+    font-size: 20px;   
 }
 .resume{
     cursor: pointer;
