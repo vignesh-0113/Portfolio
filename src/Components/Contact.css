@@ -88,17 +88,20 @@
         margin-top: 35px;
     }
     .form input{
-        width: 50%;
+        width: 130%;
         color: white;
     }
-    .text-area textarea{
-        width: 50%;
+    .form textarea {
+        width: 130%;
         color: white;
     }
-    .button{
+    .submit{
         display: flex;
         align-items: center;
         justify-content: flex-start;
+    }
+    .submit input{
+        color: black;
     }
     
 }
