@@ -43,6 +43,10 @@
     background-color: yellow;
     
 }
+@keyframes mymove{
+    from { top:-50px }
+    to { top: 100px }
+}
 
 @media (max-width:700px){
     .content{

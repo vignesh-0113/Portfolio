@@ -17,7 +17,7 @@ export function Home (){
                         web applications using Python and MySQL for backend development, 
                         and React, HTML, CSS and JavaScript for front-end solutions.</p>
                 </div>
-                <button className='resume'><a href='https://drive.google.com/file/d/1_dW4oFtswe87e7ryRzXzbSUg3f16j_fg/view?usp=drivesdk'>My resume</a></button>
+                <button className='resume'><a href='https://drive.google.com/file/d/1b-pV8TuJsCkmSO019jSkrunaso-jef4_/view?usp=drivesdk'>My Resume</a></button>
             </div>
         </>
     )
